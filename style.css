@@ -9,7 +9,7 @@ body {
 }
 
 body {
-  background: url("https://cdn.glitch.com/03046347-0f10-4ea9-a5c4-2b9875bb5c90%2F16.%20Medium%20Purple.png?v=1630357993779")
+  background: url("background.png")
     no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
