@@ -1,4 +1,16 @@
-# bridge
+# Bridge.js - www.bridge.js.org
+
 A tiny-yet-powerful JavaScript library, focused on easily connecting HTML to JavaScript.
 
-**Docs and downloads at www.bridge.js.org**
+## Simple example
+**HTML**
+```html
+<p>{{text}}</p>
+```
+**JavaScript**
+```js
+const bridge = new Bridge('p');
+bridge.cross({text: 'Hello Bridge!'});
+```
+**Output**
+> Hello Bridge!
