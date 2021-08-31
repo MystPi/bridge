@@ -1,4 +1,4 @@
-# Bridge.js - www.bridge.js.org
+# Bridge.js - [bridge.js.org](https://bridge.js.org)
 
 A tiny-yet-powerful JavaScript library, focused on easily connecting HTML to JavaScript.
 
