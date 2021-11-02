@@ -8,7 +8,7 @@ A tiny-yet-powerful JavaScript library, focused on easily connecting HTML to Jav
 ## Bridge is...
 - :star: easy to use.
 - :mag: tiny; only 367 bytes!
-- :rocket: incredibly fast, taking only 2 - 3 milliseconds to run the example code on the [homepage](https://bridge.js.org).
+- :rocket: incredibly fast, taking only 2 - 3 milliseconds to run the example code on the homepage.
 - :package: simple to include. Download **one** file or use a CDN!
 
 
