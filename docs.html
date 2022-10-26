@@ -18,9 +18,7 @@
         {{title}}<span class="logo">js</span>
       </h1>
       <br />
-      <p class="subtitle has-text-centered">
-        Documentation/how to use
-      </p>
+      <p class="subtitle has-text-centered">Documentation/how to use</p>
       <br />
       <div class="has-text-centered">
         <a href="/" class="button">Home</a>
@@ -36,47 +34,35 @@
       <div class="container">
         <div class="columns">
           <div class="column is-half">
-            <h2 class="title is-4">
-              Installation
-            </h2>
-            <p>
-              Minified CDN version
-            </p>
+            <h2 class="title is-4">Installation</h2>
+            <p>CDN</p>
             <br />
             <pre><code>&lt;script src="https://cdn.jsdelivr.net/gh/MystPi/bridge/src/bridge.min.js"&gt;&lt;/script&gt;</code></pre>
             <br />
-            <p>
-              Dev CDN version
-            </p>
-            <br />
-            <pre><code>&lt;script src="https://cdn.jsdelivr.net/gh/MystPi/bridge/src/bridge.js"&gt;&lt;/script&gt;</code></pre>
-            <br />
-            <p>
-              Download
-            </p>
+            <p>Download</p>
             <br />
             <a
-              href="https://raw.githubusercontent.com/MystPi/bridge/main/src/bridge.min.js"
+              href="https://cdn.jsdelivr.net/gh/MystPi/bridge/src/bridge.min.js"
               download="bridge.min.js"
               class="button is-primary"
             >
-              Download bridge.min.js
+              Minified (recommended)
             </a>
-            <a href="https://raw.githubusercontent.com/MystPi/bridge/main/src/bridge.js" download="bridge.js" class="button">
-              Download bridge.js
+            <a
+              href="https://cdn.jsdelivr.net/gh/MystPi/bridge/src/bridge.js"
+              download="bridge.js"
+              class="button"
+            >
+              Unminified
             </a>
           </div>
           <div class="column if-half">
-            <h2 class="title is-4">
-              Usage
-            </h2>
+            <h2 class="title is-4">Usage</h2>
             <p>
               <b>Basics</b>
             </p>
             <br />
-            <p>
-              1. Initialize a Bridge between an element
-            </p>
+            <p>1. Initialize a Bridge between an element</p>
             <br />
             <pre><code class="prettyprint is-js">// In this case, the element is 'body'
 let bridge = new Bridge('body');
@@ -84,18 +70,14 @@ let bridge = new Bridge('body');
 // You can use CSS selectors too
 // bridge = new Bridge('p.logo');</code></pre>
             <br />
-            <p>
-              2. Put placeholders in your HTML code
-            </p>
+            <p>2. Put placeholders in your HTML code</p>
             <br />
             <pre><code>&lt;body&gt;
   &lt;!-- Placeholders are surrounded by curly braces ({}) --&gt;
   &lt;p&gt;\{{text}}&lt;/p&gt;
 &lt;/body&gt;</code></pre>
             <br />
-            <p>
-              3. Cross (send data) over the bridge
-            </p>
+            <p>3. Cross (send data) over the bridge</p>
             <br />
             <pre><code class="prettyprint is-js">bridge.cross({text: 'Hello Bridge!'});
 
@@ -109,9 +91,7 @@ let bridge = new Bridge('body');
               Bridge!'
             </p>
             <br />
-            <p>
-              Hello Bridge!
-            </p>
+            <p>Hello Bridge!</p>
             <br />
             <p>
               <b>Escaping</b>
