@@ -12,15 +12,10 @@ A tiny-yet-powerful JavaScript library, focused on easily connecting HTML to Jav
 - :package: simple to include. Download **one** file or use a CDN!
 
 
-## Installation
+## Download/CDN
 
-You can either download Bridge or include it with a CDN.
-- Download
-  - [minified](https://raw.githubusercontent.com/MystPi/bridge/main/src/bridge.min.js)
-  - [unminifed](https://raw.githubusercontent.com/MystPi/bridge/main/src/bridge.js)
-- CDN
-  - [minified](https://cdn.jsdelivr.net/gh/MystPi/bridge/src/bridge.min.js)
-  - [unminified](https://cdn.jsdelivr.net/gh/MystPi/bridge/src/bridge.js)
+- [Minified (recommended)](https://cdn.jsdelivr.net/gh/MystPi/bridge/src/bridge.min.js)
+- [Unminified](https://cdn.jsdelivr.net/gh/MystPi/bridge/src/bridge.js)
 
 ## Documentation
 
