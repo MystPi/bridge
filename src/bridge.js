@@ -18,9 +18,7 @@ class Bridge {
   }
 
   cross(args) {
-    for (let arg in args) {
-      this.data[arg] = args[arg];
-    }
+    Object.assign(this.data, args);
     this.el.innerHTML = this._sub(this.code, this.data);
   }
 }
