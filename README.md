@@ -1,3 +1,6 @@
+# ⚠️ Bridge.js has been deprecated ⚠️
+
+Bridge.js has been deprecated in favor of [Crossings](https://github.com/MystPi/crossings/).
 
 # Bridge.js
 
